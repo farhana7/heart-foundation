@@ -113,7 +113,7 @@ Dark with quick action
 PNG PREVIEW */}
 
       <div>
-        <div className="sticky top-0 ... inset-0 bg-red-700">
+        <div className="sticky top-0 ... inset-0 h-12 bg-red-700 flex items-center justify-between text-white ">
           National Heart Foundation
           <NavLink as={HashLink} to="/home#home">
             <button>Home</button>

@@ -52,9 +52,8 @@ const doctors = [
 const Doctors = () => {
   return (
     <div id="doctors" className="container">
-      <h2 className="text-green-700 m-5">our Doctors</h2>
-      <div className="row">
-        {/**bootstrap */}
+      <h2 className="text-green-700 m-20 font-bold text-4xl ">Our Doctors</h2>
+      <div className="doc">
         {doctors.map((doctor) => (
           <Doctor key={doctor.id} doctor={doctor}></Doctor>
         ))}

@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home/Home";
 import Login from "./Components/Login/Login/Login";
 import PrivateRoute from "./Components/Login/PrivateRoute/PrivateRoute";
 import NotFound from "./Components/NotFound/NotFound";
+import Footer from "./Components/Shared/Footer/Footer";
 import Header from "./Components/Shared/Header/Header";
 import Taking from "./Components/Taking/Taking/Taking";
 import AuthProvider from "./contexts/AuthProvider";
@@ -32,6 +33,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
