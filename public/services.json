@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Cardiac Surgery",
+    "description": "Cardiac surgeons at the National Heart Foundation are able to offer patients the latest in innovative minimally-invasive surgical techniques",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/500px-Cardiac_surgery_operating_room.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cardioloy",
+    "description": "Our team offers a full array of cardiac testing and procedures to diagnose and treat acute and chronic conditions of the heart and blood vessels",
+    "img": "https://image.shutterstock.com/image-photo/medicine-doctor-holding-red-heart-260nw-699420829.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vascular Surgery",
+    "description": "As the only dedicated vascular surgery program in the region, we serve patients across South Asia.",
+    "img": "https://www.baptistfirst.org/assets/images/vascular-graphic.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Diagnostic Services & Facilities",
+    "description": "Diagnostic tests help our physicians identify or diagnose cardiovascular conditions.  The results provide our physicians with information to help determine the best course of treatment.  These tests are used to identify heart and vascular issues.  Some of the diagnostic tests involve nuclear medicine, the use of a small amount of radioactive substance, to produce two and three dimensional images and blood flow function.  ",
+    "img": "https://www.thebalancecareers.com/thmb/MvfYaPkSotohV0TNNESz5FJgn1Q=/3865x2174/smart/filters:no_upscale()/MRI-56a150685f9b58b7d0be2b1e.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Accident and Emergency",
+    "description": "Fastest response time In Accidents, Heart attacks & Paralytic Strokes. This centre provides round-the-clock service with 24 x 7 access to modern operation theatres, a fully stocked 24-hour pharmacy & imaging and diagnostic tools for immediate and accurate diagnosis of the patient condition.",
+    "img": "https://www.elitecme.com/wp-content/uploads/sites/4/2016/07/509802444.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Childrens Heart Center",
+    "description": "Designed exclusively for children, the Children Heart Centre at National Heart Foundation is ISO 9001-2000 certified. It incorporates the most advanced medical technology and infrastructure, in an entirely child friendly environment.",
+    "img": "https://post.healthline.com/wp-content/uploads/2020/08/5293-Baby_boy_at_medical_exam-732x549-thumbnail-732x549.jpg"
+  }
+]
