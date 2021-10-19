@@ -9,15 +9,12 @@ const Service = ({ service }) => {
     <div className="service pb-3">
       <img src={img} alt="" />
       <h3 className="text-3xl">{name}</h3>
-      <p className="px-3">{description}</p> {/* bootstrap*/}
+      <p className="px-3">{description}</p>
       <Link to={`/taking/${id}`}>
         <button className="w-full h-7 bg-red-800 text-white" to="/service">
           Take {name.toLowerCase()} service
         </button>
       </Link>
-      {/* <NavLink className="w-32 h-7 bg-gray-700" to="/service">
-        Take {name.toLowerCase()} service
-      </NavLink> */}
     </div>
   );
 };

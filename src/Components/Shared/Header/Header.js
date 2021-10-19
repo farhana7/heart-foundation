@@ -114,7 +114,10 @@ PNG PREVIEW */}
 
       <div>
         <div className="sticky top-0 ... inset-0 h-12 bg-red-700 flex items-center justify-between text-white ">
-          National Heart Foundation
+          <h1 className="text-white font-bold text-5xl">
+            National Heart Foundation
+          </h1>
+
           <NavLink as={HashLink} to="/home#home">
             <button>Home</button>
           </NavLink>
