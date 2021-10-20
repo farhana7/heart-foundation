@@ -53,7 +53,19 @@ const Doctors = () => {
   return (
     <div id="doctors" className="container">
       <h2 className="text-green-700 m-20 font-bold text-4xl ">Our Doctors</h2>
-      <div className="doctors">
+      <div className="mb-20">
+        <img
+          className="w-5/12 h-74 m-auto"
+          src="https://www.nhf.org.bd/images/services/brig1.jpg"
+          alt=""
+        />
+        <br />
+        <br />
+        <h3 className="text-gray-900 font-bold text-2xl ">
+          The Founder: National Professor Brig.(Rtd.) Abdul Malik
+        </h3>
+      </div>
+      <div className="doctors-container">
         {doctors.map((doctor) => (
           <Doctor key={doctor.id} doctor={doctor}></Doctor>
         ))}

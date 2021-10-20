@@ -10,7 +10,7 @@ const NotFound = () => {
         alt=""
       />
       <Link to="/">
-        <button>Go Back</button>
+        <button className=" w-full h-12 bg-green-800">Go Back</button>
       </Link>
     </div>
   );
