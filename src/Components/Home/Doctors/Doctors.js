@@ -53,7 +53,7 @@ const Doctors = () => {
   return (
     <div id="doctors" className="container">
       <h2 className="text-green-700 m-20 font-bold text-4xl ">Our Doctors</h2>
-      <div className="doc">
+      <div className="doctors">
         {doctors.map((doctor) => (
           <Doctor key={doctor.id} doctor={doctor}></Doctor>
         ))}

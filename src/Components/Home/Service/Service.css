@@ -1,6 +1,8 @@
 .service {
-  background-color: #34a0a4;
-  border: 20px;
+  background-color: #fffbfa;
+
+  /* border: 1px solid #9d0208; */
+
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;

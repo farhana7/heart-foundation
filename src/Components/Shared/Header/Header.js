@@ -113,7 +113,7 @@ Dark with quick action
 PNG PREVIEW */}
 
       <div>
-        <div className="sticky top-0 ... inset-0 h-12 bg-red-700 flex items-center justify-between text-white ">
+        <div className="sticky top-0 inset-0 h-12 bg-red-700 flex items-center justify-between text-white ">
           <h1 className="text-white font-bold text-5xl">
             National Heart Foundation
           </h1>
@@ -121,10 +121,10 @@ PNG PREVIEW */}
           <NavLink as={HashLink} to="/home#home">
             <button>Home</button>
           </NavLink>
-          <NavLink as={HashLink} to="/home#services">
+          <NavLink as={HashLink} to="/services">
             <button>Services</button>
           </NavLink>
-          <NavLink as={HashLink} to="/home#doctors">
+          <NavLink as={HashLink} to="/doctors">
             <button>Doctors</button>
           </NavLink>
           {user?.email ? (
